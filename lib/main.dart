@@ -1,12 +1,6 @@
 import 'package:flutter/material.dart';
+import 'ui/micardappv2.dart';
 
 void main() {
-  runApp(
-    MaterialApp(
-      home: Scaffold(
-        backgroundColor: Colors.teal,
-        body: Container(),
-      ),
-    ),
-  );
+  runApp(MiCardAppV());
 }
